@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/start_nav_graph"
+    app:startDestination="@id/splashFragment2">
+
+    <fragment
+        android:id="@+id/splashFragment2"
+        android:name="com.seif.hospitalsystem.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment2_to_prototypeFragment2"
+            app:destination="@id/prototypeFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/prototypeFragment2"
+        android:name="com.seif.hospitalsystem.PrototypeFragment"
+        android:label="fragment_prototype"
+        tools:layout="@layout/fragment_prototype" >
+        <action
+            android:id="@+id/action_prototypeFragment2_to_signInFragment2"
+            app:destination="@id/signInFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment2"
+        android:name="com.seif.hospitalsystem.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signInFragment2_to_mainActivity2"
+            app:destination="@id/mainActivity2" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity2"
+        android:name="com.seif.hospitalsystem.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+</navigation>
