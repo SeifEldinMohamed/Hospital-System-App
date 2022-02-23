@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Hospital System</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prototype_map">Prototype Map</string>
+    <string name="doctor">Doctor</string>
+    <string name="nurse">Nurse</string>
+    <string name="receptionist">Receptionist</string>
+    <string name="analysis_employee">Analysis Employee</string>
+    <string name="manager">Manager</string>
+    <string name="hr">HR</string>
+    <string name="lower_background_image_description">lower background image description</string>
+    <string name="upper_background_image_description">upper background image description</string>
+    <string name="loading">Loading...</string>
 </resources>
