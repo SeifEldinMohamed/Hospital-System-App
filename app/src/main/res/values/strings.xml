@@ -19,4 +19,25 @@
     <string name="password">Password</string>
     <string name="app_icon_image_description">app icon image description</string>
     <string name="login">Login</string>
+    <string name="tasks">Tasks •</string>
+    <string name="calls">Calls •</string>
+    <string name="you_have_new_1_request">You have new +1 Request</string>
+    <string name="you_have_new_1_tasks">You have new +1 Tasks</string>
+    <string name="seif_eldin_mohamed">Seif Eldin Mohamed</string>
+    <string name="specialist_doctor">Specialist, Doctor</string>
+    <string name="image_tasks_description">image tasks description</string>
+    <string name="image_calls_description">image calls description</string>
+    <string name="image_notification_description">image notification description</string>
+    <string name="user_image_description">user image description</string>
+    <string name="reports">Reports •</string>
+    <string name="you_have_new_3_reports">You have new +3 Reports</string>
+    <string name="attendance_n_amp_nleaving"><![CDATA[attendance\n&\nleaving]]></string>
+    <string name="cases">Cases</string>
+    <string name="employee">"Employee •</string>
+    <string name="hazem_khaled">Hazem Khaled</string>
+    <string name="_24_04_2022">24.04.2022</string>
+    <string name="calender_image_description">calender image description</string>
+    <string name="state_finish_image_description">state finish image description</string>
+    <string name="person_image_description">person image description</string>
+    <string name="pending_image_description">pending image description</string>
 </resources>

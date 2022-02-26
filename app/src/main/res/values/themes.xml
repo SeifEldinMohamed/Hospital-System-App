@@ -3,12 +3,17 @@
     <style name="Theme.HospitalSystem" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/mediumGreen</item>
-        <item name="colorPrimaryVariant">@color/darkGreen</item>
+        <item name="colorPrimaryVariant">@color/white</item>
         <item name="colorAccent">@color/mediumGreen</item>
 
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+
+    <item name="android:windowLightStatusBar">true</item>
+    <!--when android:windowLightStatusBar is set to true, status bar text color will be able
+    to be seen when the status bar color is white, and vice-versa when android:windowLightStatusBar
+    is set to false, status bar text color will be designed to be seen when the status bar color is dark.-->
+
     </style>
     <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="colorPrimary">@color/mediumGreen</item>

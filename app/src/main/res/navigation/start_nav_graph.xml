@@ -7,30 +7,35 @@
 
     <fragment
         android:id="@+id/splashFragment2"
-        android:name="com.seif.hospitalsystem.SplashFragment"
+        android:name="com.seif.hospitalsystem.ui.fragments.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
             android:id="@+id/action_splashFragment2_to_prototypeFragment2"
-            app:destination="@id/prototypeFragment2" />
+            app:destination="@id/prototypeFragment2"
+            app:popUpTo="@id/splashFragment2"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/prototypeFragment2"
-        android:name="com.seif.hospitalsystem.PrototypeFragment"
+        android:name="com.seif.hospitalsystem.ui.fragments.PrototypeFragment"
         android:label="fragment_prototype"
         tools:layout="@layout/fragment_prototype" >
         <action
             android:id="@+id/action_prototypeFragment2_to_signInFragment2"
-            app:destination="@id/signInFragment2" />
+            app:destination="@id/signInFragment2"
+            app:popUpTo="@id/prototypeFragment2"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/signInFragment2"
-        android:name="com.seif.hospitalsystem.SignInFragment"
+        android:name="com.seif.hospitalsystem.ui.fragments.SignInFragment"
         android:label="fragment_sign_in"
         tools:layout="@layout/fragment_sign_in" >
         <action
             android:id="@+id/action_signInFragment2_to_mainActivity2"
-            app:destination="@id/mainActivity2" />
+            app:destination="@id/mainActivity2"
+            />
     </fragment>
     <activity
         android:id="@+id/mainActivity2"

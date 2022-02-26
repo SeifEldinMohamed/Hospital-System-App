@@ -1,15 +1,14 @@
-package com.seif.hospitalsystem
+package com.seif.hospitalsystem.ui.fragments
 
-import android.content.Context
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import android.view.ContextThemeWrapper
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.seif.hospitalsystem.R
 
 
 class SplashFragment : Fragment() {

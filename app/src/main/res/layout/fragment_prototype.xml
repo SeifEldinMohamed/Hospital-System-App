@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PrototypeFragment">
+    tools:context=".ui.fragments.PrototypeFragment">
 
     <ImageView
         android:id="@+id/imageView"
@@ -50,7 +50,7 @@
                 android:text="@string/doctor"
                 android:textSize="@dimen/_15sdp"
                 app:cornerRadius="@dimen/_8sdp"
-                app:strokeColor="@color/lightGray" />
+                app:strokeColor="@color/mediumGray" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_receptionist"
@@ -65,7 +65,8 @@
                 android:text="@string/receptionist"
                 android:textSize="@dimen/_15sdp"
                 app:cornerRadius="@dimen/_8sdp"
-                app:strokeColor="@color/lightGray" />
+                app:strokeColor="@color/mediumGray"
+                tools:ignore="TextContrastCheck" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_nurse"
@@ -80,7 +81,7 @@
                 android:text="@string/nurse"
                 android:textSize="@dimen/_15sdp"
                 app:cornerRadius="@dimen/_8sdp"
-                app:strokeColor="@color/lightGray" />
+                app:strokeColor="@color/mediumGray" />
         </LinearLayout>
 
         <TextView
@@ -122,7 +123,7 @@
                 android:text="@string/analysis_employee"
                 android:textSize="@dimen/_15sdp"
                 app:cornerRadius="@dimen/_8sdp"
-                app:strokeColor="@color/lightGray"
+                app:strokeColor="@color/mediumGray"
                 tools:ignore="TextContrastCheck" />
 
             <com.google.android.material.button.MaterialButton
@@ -138,7 +139,8 @@
                 android:text="@string/manager"
                 android:textSize="@dimen/_15sdp"
                 app:cornerRadius="@dimen/_8sdp"
-                app:strokeColor="@color/lightGray" />
+                app:strokeColor="@color/mediumGray"
+                tools:ignore="TextContrastCheck" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_hr"
@@ -153,7 +155,7 @@
                 android:text="@string/hr"
                 android:textSize="@dimen/_15sdp"
                 app:cornerRadius="@dimen/_8sdp"
-                app:strokeColor="@color/lightGray" />
+                app:strokeColor="@color/mediumGray" />
 
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
