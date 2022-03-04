@@ -40,4 +40,7 @@
     <string name="state_finish_image_description">state finish image description</string>
     <string name="person_image_description">person image description</string>
     <string name="pending_image_description">pending image description</string>
+    <string name="date">Date</string>
+    <string name="calls_fragment">Calls</string>
+    <string name="image_button_for_add_calls">image button for add calls</string>
 </resources>
