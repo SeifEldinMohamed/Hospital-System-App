@@ -16,7 +16,7 @@ import com.seif.hospitalsystem.R
 import com.seif.hospitalsystem.data.models.Case
 import com.seif.hospitalsystem.data.models.Status
 import com.seif.hospitalsystem.databinding.FragmentCasesBinding
-import com.seif.hospitalsystem.ui.CasesAdapter
+import com.seif.hospitalsystem.ui.adapters.CasesAdapter
 import java.util.*
 
 

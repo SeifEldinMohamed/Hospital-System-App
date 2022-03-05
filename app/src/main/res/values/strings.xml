@@ -48,4 +48,6 @@
     <string name="select_doctor">Select Doctor</string>
     <string name="case_description">Case Description</string>
     <string name="send_call">Send Call</string>
+    <string name="dr_salma_ahmed">Dr.Salma Ahmed</string>
+    <string name="online_status_img">online_status_img</string>
 </resources>

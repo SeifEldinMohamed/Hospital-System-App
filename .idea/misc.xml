@@ -4,7 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/drawable/ic_calls.xml" value="0.1875" />
+        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/drawable/ic_finish.xml" value="0.1875" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/drawable/ic_gray_calendar.xml" value="0.1875" />
+        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/drawable/ic_offline_circle.xml" value="0.1875" />
+        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/drawable/ic_online_circle.xml" value="0.1875" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/drawable/ic_phone.xml" value="0.166" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/drawable/ic_tasks.xml" value="0.1875" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/drawable/search_background.xml" value="0.1875" />
@@ -13,13 +16,15 @@
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/buttomsheet_layout.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_cases.xml" value="0.264" />
-        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_create_call.xml" value="0.264" />
+        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_create_call.xml" value="0.176" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_create_callragment.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_home.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_prototype.xml" value="0.25565610859728505" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_select.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_sign_in.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_splash.xml" value="0.2" />
+        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/select_doctor_item_row.xml" value="0.4" />
+        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/select_item_row.xml" value="0.4" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/send_cases_item_row.xml" value="0.264" />
       </map>
     </option>

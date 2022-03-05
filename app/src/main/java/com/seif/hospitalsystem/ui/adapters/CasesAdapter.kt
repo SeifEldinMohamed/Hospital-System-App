@@ -1,4 +1,4 @@
-package com.seif.hospitalsystem.ui
+package com.seif.hospitalsystem.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.View
