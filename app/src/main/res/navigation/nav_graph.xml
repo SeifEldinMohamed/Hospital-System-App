@@ -18,5 +18,23 @@
         android:id="@+id/casesFragment"
         android:name="com.seif.hospitalsystem.ui.fragments.CasesFragment"
         android:label="fragment_cases"
-        tools:layout="@layout/fragment_cases" />
+        tools:layout="@layout/fragment_cases" >
+        <action
+            android:id="@+id/action_casesFragment_to_createCallFragment"
+            app:destination="@id/createCallFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createCallFragment"
+        android:name="com.seif.hospitalsystem.ui.fragments.CreateCallFragment"
+        android:label="fragment_create_call"
+        tools:layout="@layout/fragment_create_call" >
+        <action
+            android:id="@+id/action_createCallFragment_to_selectFragment"
+            app:destination="@id/selectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectFragment"
+        android:name="com.seif.hospitalsystem.SelectFragment"
+        android:label="fragment_select"
+        tools:layout="@layout/fragment_select" />
 </navigation>

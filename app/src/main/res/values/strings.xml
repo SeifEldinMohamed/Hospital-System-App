@@ -43,4 +43,9 @@
     <string name="date">Date</string>
     <string name="calls_fragment">Calls</string>
     <string name="image_button_for_add_calls">image button for add calls</string>
+    <string name="patient_name">Patient Name</string>
+    <string name="age">Age</string>
+    <string name="select_doctor">Select Doctor</string>
+    <string name="case_description">Case Description</string>
+    <string name="send_call">Send Call</string>
 </resources>

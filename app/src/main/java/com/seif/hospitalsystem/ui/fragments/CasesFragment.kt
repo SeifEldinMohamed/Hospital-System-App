@@ -1,16 +1,16 @@
 package com.seif.hospitalsystem.ui.fragments
 
-import android.app.DatePickerDialog
 import android.icu.text.SimpleDateFormat
 import android.os.Build
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.CalendarView
 import androidx.annotation.RequiresApi
 import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.seif.hospitalsystem.R
 import com.seif.hospitalsystem.data.models.Case
@@ -35,8 +35,14 @@ class CasesFragment : Fragment() {
     @RequiresApi(Build.VERSION_CODES.N)
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        // set up recycler view
         casesAdapter.addCases(createDummyCases())
         binding.rvCases.adapter = casesAdapter
+        // handle navigation back up from toolbar
+        binding.toolbarCases.setNavigationIcon(R.drawable.ic_arrow_back)
+        binding.toolbarCases.setNavigationOnClickListener {
+            requireActivity().onBackPressed()
+        }
 
         val calender = Calendar.getInstance()
 //        val dataPicker: DatePickerDialog.OnDateSetListener =
@@ -65,6 +71,9 @@ class CasesFragment : Fragment() {
                 }
             bottomSheetDialog.setContentView(bottomSheetView)
             bottomSheetDialog.show()
+        }
+        binding.btnAddCase.setOnClickListener {
+            findNavController().navigate(R.id.action_casesFragment_to_createCallFragment)
         }
     }
 
