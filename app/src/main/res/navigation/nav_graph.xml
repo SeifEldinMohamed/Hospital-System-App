@@ -31,10 +31,22 @@
         <action
             android:id="@+id/action_createCallFragment_to_selectFragment"
             app:destination="@id/selectFragment" />
+        <action
+            android:id="@+id/action_createCallFragment_to_confirmationFragment"
+            app:destination="@id/confirmationFragment" />
     </fragment>
     <fragment
         android:id="@+id/selectFragment"
         android:name="com.seif.hospitalsystem.ui.fragments.SelectFragment"
         android:label="fragment_select"
         tools:layout="@layout/fragment_select" />
+    <fragment
+        android:id="@+id/confirmationFragment"
+        android:name="com.seif.hospitalsystem.ConfirmationFragment"
+        android:label="fragment_confirmation"
+        tools:layout="@layout/fragment_confirmation" >
+        <action
+            android:id="@+id/action_confirmationFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
 </navigation>

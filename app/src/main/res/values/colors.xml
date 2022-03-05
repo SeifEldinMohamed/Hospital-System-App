@@ -13,6 +13,7 @@
     <color name="purple">#915FDC</color>
     <color name="lightBlue">#5FDCDC</color>
     <color name="lightGreen">#5FDC89</color>
+    <color name="greenTextColor">#08A752</color>
     <color name="orange">#DC915F</color>
     <color name="mediumBlack">#343434</color>
 </resources>

@@ -30,7 +30,7 @@ lateinit var binding: FragmentCreateCallBinding
             requireActivity().onBackPressed()
         }
         binding.btnSendCall.setOnClickListener {
-
+            findNavController().navigate(R.id.action_createCallFragment_to_confirmationFragment)
         }
         binding.selectDoctorEditText.setOnClickListener {
             findNavController().navigate(R.id.action_createCallFragment_to_selectFragment)

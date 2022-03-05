@@ -34,7 +34,7 @@ private val adapter by lazy { SelectAdapter() }
         binding.rvSelect.adapter = adapter
 
         binding.btnSelect.setOnClickListener {
-
+            findNavController().navigateUp()
         }
 
     }

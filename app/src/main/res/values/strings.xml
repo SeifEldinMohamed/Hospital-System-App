@@ -50,4 +50,6 @@
     <string name="send_call">Send Call</string>
     <string name="dr_salma_ahmed">Dr.Salma Ahmed</string>
     <string name="online_status_img">online_status_img</string>
+    <string name="the_request_has_been_send_successfully">The request has been send successfully</string>
+    <string name="back_to_home">Back to Home</string>
 </resources>
