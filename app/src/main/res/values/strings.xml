@@ -62,4 +62,12 @@
     <string name="_24_04_2022">24.04.2022</string>
     <string name="case_logged_out">Case has been logged out</string>
     <string name="finished">Finished</string>
+    <string name="specialist_doctor_profile">Specialist - Doctor</string>
+    <string name="single">Single</string>
+    <string name="male">Male</string>
+    <string name="_26_06_2001">26.06.2001</string>
+    <string name="cairo_egypt">Cairo, Egypt</string>
+    <string name="sm499088_gmail_com">sm499088@gmail.com</string>
+    <string name="profile_image_background_description">profile image background description</string>
+    <string name="my_profile">My Profile</string>
 </resources>

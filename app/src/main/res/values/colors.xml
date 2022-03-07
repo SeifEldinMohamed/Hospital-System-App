@@ -18,4 +18,5 @@
     <color name="orange">#DC915F</color>
     <color name="mediumBlack">#343434</color>
     <color name="red">#E63A3A</color>
+    <color name="profile_background">@color/mediumGreen</color>
 </resources>

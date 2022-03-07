@@ -39,7 +39,12 @@ class HomeFragment : Fragment() {
                 }
             }
         }
-
+        binding.profileImg.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_profileFragment)
+        }
+        binding.txtProfileName.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_profileFragment)
+        }
     }
 
     private fun handleDesignSignIn(specialization: String){

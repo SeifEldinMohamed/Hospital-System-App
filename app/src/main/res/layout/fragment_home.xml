@@ -7,7 +7,7 @@
     tools:context=".ui.fragments.HomeFragment">
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/materialCardView"
+        android:id="@+id/profile_img"
         android:layout_width="@dimen/_38sdp"
         android:layout_height="@dimen/_38sdp"
         android:layout_marginStart="@dimen/_14sdp"
@@ -29,7 +29,7 @@
     </com.google.android.material.card.MaterialCardView>
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/txt_profile_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
@@ -37,8 +37,8 @@
         android:text="@string/seif_eldin_mohamed"
         android:textColor="@color/black"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/materialCardView"
-        app:layout_constraintTop_toTopOf="@+id/materialCardView" />
+        app:layout_constraintStart_toEndOf="@+id/profile_img"
+        app:layout_constraintTop_toTopOf="@+id/profile_img" />
 
     <TextView
         android:id="@+id/txt_specialist"
@@ -48,8 +48,8 @@
         android:layout_marginBottom="@dimen/_2sdp"
         android:text="@string/specialist_doctor"
         android:textColor="@color/mediumGreen"
-        app:layout_constraintBottom_toBottomOf="@+id/materialCardView"
-        app:layout_constraintStart_toEndOf="@+id/materialCardView"
+        app:layout_constraintBottom_toBottomOf="@+id/profile_img"
+        app:layout_constraintStart_toEndOf="@+id/profile_img"
         tools:ignore="TextContrastCheck" />
 
     <ImageView
@@ -71,7 +71,7 @@
         android:layout_marginTop="@dimen/_30sdp"
         app:cardCornerRadius="@dimen/_8sdp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialCardView">
+        app:layout_constraintTop_toBottomOf="@+id/profile_img">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -132,7 +132,7 @@
         android:layout_marginEnd="@dimen/_8sdp"
         app:cardCornerRadius="@dimen/_8sdp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialCardView">
+        app:layout_constraintTop_toBottomOf="@+id/profile_img">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
