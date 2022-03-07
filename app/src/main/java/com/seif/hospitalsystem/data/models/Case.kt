@@ -1,6 +1,10 @@
 package com.seif.hospitalsystem.data.models
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
 
+
+@Parcelize
 data class Case(
     val id: Int,
     val patientName: String,
@@ -10,4 +14,4 @@ data class Case(
     val caseStatus: Status,
     val caseDescription: String,
     val assignedDoctor: String
-)
+):Parcelable

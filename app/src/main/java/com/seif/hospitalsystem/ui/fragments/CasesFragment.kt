@@ -97,7 +97,7 @@ class CasesFragment : Fragment() {
                 20,
                 "01000883795",
                 "26.02.2022",
-                Status.Pending,
+                Status.Process,
                 "Cook aromatic turkey in a frying pan with vinegar for about an hour to chamfer their sweetness." ,
                 "Mohamed"
             ),
@@ -107,7 +107,7 @@ class CasesFragment : Fragment() {
                 20,
                 "01000883795",
                 "26.02.2022",
-                Status.Pending,
+                Status.Process,
                 "Cook aromatic turkey in a frying pan with vinegar for about an hour to chamfer their sweetness." ,
                 "Mohamed"
             ),
@@ -117,7 +117,7 @@ class CasesFragment : Fragment() {
                 20,
                 "01000883795",
                 "26.02.2022",
-                Status.Pending,
+                Status.Process,
                 "Cook aromatic turkey in a frying pan with vinegar for about an hour to chamfer their sweetness." ,
                 "Mohamed"
             ),
@@ -127,7 +127,7 @@ class CasesFragment : Fragment() {
                 20,
                 "01000883795",
                 "26.02.2022",
-                Status.Pending,
+                Status.Process,
                 "Cook aromatic turkey in a frying pan with vinegar for about an hour to chamfer their sweetness." ,
                 "Mohamed"
             ),
@@ -137,7 +137,7 @@ class CasesFragment : Fragment() {
                 20,
                 "01000883795",
                 "26.02.2022",
-                Status.Pending,
+                Status.Process,
                 "Cook aromatic turkey in a frying pan with vinegar for about an hour to chamfer their sweetness." ,
                 "Mohamed"
             ),
@@ -147,7 +147,7 @@ class CasesFragment : Fragment() {
                 20,
                 "01000883795",
                 "26.02.2022",
-                Status.Pending,
+                Status.Process,
                 "Cook aromatic turkey in a frying pan with vinegar for about an hour to chamfer their sweetness." ,
                 "Mohamed"
             ),
@@ -157,7 +157,7 @@ class CasesFragment : Fragment() {
                 20,
                 "01000883795",
                 "26.02.2022",
-                Status.Pending,
+                Status.Process,
                 "Cook aromatic turkey in a frying pan with vinegar for about an hour to chamfer their sweetness." ,
                 "Mohamed"
             ),

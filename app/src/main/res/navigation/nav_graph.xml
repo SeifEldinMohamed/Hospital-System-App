@@ -45,7 +45,7 @@
         tools:layout="@layout/fragment_select" />
     <fragment
         android:id="@+id/confirmationFragment"
-        android:name="com.seif.hospitalsystem.ConfirmationFragment"
+        android:name="com.seif.hospitalsystem.ui.fragments.ConfirmationFragment"
         android:label="fragment_confirmation"
         tools:layout="@layout/fragment_confirmation" >
         <action
@@ -54,7 +54,11 @@
     </fragment>
     <fragment
         android:id="@+id/caseDetailsFragment"
-        android:name="com.seif.hospitalsystem.CaseDetailsFragment"
+        android:name="com.seif.hospitalsystem.ui.fragments.CaseDetailsFragment"
         android:label="fragment_case_details"
-        tools:layout="@layout/fragment_case_details" />
+        tools:layout="@layout/fragment_case_details" >
+        <argument
+            android:name="Case"
+            app:argType="com.seif.hospitalsystem.data.models.Case" />
+    </fragment>
 </navigation>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CaseDetailsFragment">
+    tools:context=".ui.fragments.CaseDetailsFragment">
 
 
     <androidx.appcompat.widget.Toolbar
@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_regular"
-        android:text="Case Details"
+        android:text="@string/case_details"
         android:textColor="@color/black"
         android:textSize="@dimen/_14sdp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar_case_description"
@@ -54,9 +54,11 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/poppins_semibold"
                 android:paddingStart="@dimen/_8sdp"
-                android:text="Patient Name"
+                android:paddingEnd="@dimen/_8sdp"
+                android:text="@string/patient_name"
                 android:textColor="@color/mediumDarkGray"
-                android:textSize="@dimen/_15ssp" />
+                android:textSize="@dimen/_15ssp"
+                tools:ignore="TextContrastCheck" />
 
             <TextView
                 android:id="@+id/txt_name"
@@ -66,7 +68,8 @@
                 android:fontFamily="@font/poppins_regular"
                 android:gravity="end"
                 android:paddingEnd="@dimen/_8sdp"
-                android:text="Seif Mohamed"
+                android:paddingStart="@dimen/_8sdp"
+                android:text="@string/seif_mohamed"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_15ssp" />
         </LinearLayout>
@@ -74,7 +77,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_marginTop="@dimen/_8sdp"
             android:orientation="horizontal">
 
             <TextView
@@ -84,9 +87,11 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/poppins_semibold"
                 android:paddingStart="@dimen/_8sdp"
-                android:text="Age"
+                android:paddingEnd="@dimen/_8sdp"
+                android:text="@string/age"
                 android:textColor="@color/mediumDarkGray"
-                android:textSize="@dimen/_15ssp" />
+                android:textSize="@dimen/_15ssp"
+                tools:ignore="TextContrastCheck" />
 
             <TextView
                 android:id="@+id/txt_age"
@@ -96,7 +101,8 @@
                 android:fontFamily="@font/poppins_regular"
                 android:gravity="end"
                 android:paddingEnd="@dimen/_8sdp"
-                android:text="21 Years"
+                android:paddingStart="@dimen/_8sdp"
+                android:text="@string/_21_years"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_15ssp" />
         </LinearLayout>
@@ -104,7 +110,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_marginTop="@dimen/_8sdp"
             android:orientation="horizontal">
 
             <TextView
@@ -114,9 +120,11 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/poppins_semibold"
                 android:paddingStart="@dimen/_8sdp"
-                android:text="Phone Number"
+                android:paddingEnd="@dimen/_8sdp"
+                android:text="@string/phone_number"
                 android:textColor="@color/mediumDarkGray"
-                android:textSize="@dimen/_15ssp" />
+                android:textSize="@dimen/_15ssp"
+                tools:ignore="TextContrastCheck" />
 
             <TextView
                 android:id="@+id/txt_phoneNumber"
@@ -126,7 +134,8 @@
                 android:fontFamily="@font/poppins_regular"
                 android:gravity="end"
                 android:paddingEnd="@dimen/_8sdp"
-                android:text="01000883795"
+                android:paddingStart="@dimen/_8sdp"
+                android:text="@string/_01000883795"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_15ssp" />
         </LinearLayout>
@@ -134,7 +143,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_marginTop="@dimen/_8sdp"
             android:orientation="horizontal">
 
             <TextView
@@ -144,9 +153,11 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/poppins_semibold"
                 android:paddingStart="@dimen/_8sdp"
-                android:text="Date"
+                android:paddingEnd="@dimen/_8sdp"
+                android:text="@string/date"
                 android:textColor="@color/mediumDarkGray"
-                android:textSize="@dimen/_15ssp" />
+                android:textSize="@dimen/_15ssp"
+                tools:ignore="TextContrastCheck" />
 
             <TextView
                 android:id="@+id/txt_date"
@@ -156,7 +167,8 @@
                 android:fontFamily="@font/poppins_regular"
                 android:gravity="end"
                 android:paddingEnd="@dimen/_8sdp"
-                android:text="24.04.2022"
+                android:paddingStart="@dimen/_8sdp"
+                android:text="@string/_24_04_2022"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_15ssp" />
         </LinearLayout>
@@ -164,7 +176,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_marginTop="@dimen/_8sdp"
             android:orientation="horizontal">
 
             <TextView
@@ -174,9 +186,11 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/poppins_semibold"
                 android:paddingStart="@dimen/_8sdp"
-                android:text="Status"
+                android:paddingEnd="@dimen/_8sdp"
+                android:text="@string/status"
                 android:textColor="@color/mediumDarkGray"
-                android:textSize="@dimen/_15ssp" />
+                android:textSize="@dimen/_15ssp"
+                tools:ignore="TextContrastCheck" />
 
             <TextView
                 android:id="@+id/txt_status"
@@ -187,7 +201,8 @@
                 android:fontFamily="@font/poppins_regular"
                 android:gravity="end"
                 android:paddingEnd="@dimen/_8sdp"
-                android:text="Process"
+                android:paddingStart="@dimen/_8sdp"
+                android:text="@string/process"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_15ssp"
                 app:drawableEndCompat="@drawable/ic_pending" />
@@ -196,7 +211,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_marginTop="@dimen/_8sdp"
             android:orientation="vertical">
 
             <TextView
@@ -206,9 +221,11 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/poppins_semibold"
                 android:paddingStart="@dimen/_8sdp"
-                android:text="Case Description"
+                android:paddingEnd="@dimen/_8sdp"
+                android:text="@string/case_description"
                 android:textColor="@color/mediumDarkGray"
-                android:textSize="@dimen/_15ssp" />
+                android:textSize="@dimen/_15ssp"
+                tools:ignore="TextContrastCheck" />
 
             <TextView
                 android:id="@+id/txt_case_description"
@@ -217,6 +234,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/poppins_regular"
                 android:paddingStart="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_8sdp"
                 android:text="@string/lorem_case_description"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_15ssp" />
@@ -224,11 +242,11 @@
     </LinearLayout>
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_backHome2"
+        android:id="@+id/btn_logged_out"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="@dimen/_10sdp"
-        android:text="Cancel"
+        android:text="@string/log_out"
         android:backgroundTint="@color/red"
         android:textAllCaps="false"
         android:textSize="@dimen/_15ssp"
