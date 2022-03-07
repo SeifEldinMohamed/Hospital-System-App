@@ -52,4 +52,5 @@
     <string name="online_status_img">online_status_img</string>
     <string name="the_request_has_been_send_successfully">The request has been send successfully</string>
     <string name="back_to_home">Back to Home</string>
+    <string name="lorem_case_description">Details note : Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s</string>
 </resources>
