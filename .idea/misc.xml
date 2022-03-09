@@ -33,12 +33,13 @@
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_home.xml" value="0.176" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_prototype.xml" value="0.25565610859728505" />
+        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_reports.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_select.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_sign_in.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_splash.xml" value="0.2" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/select_doctor_item_row.xml" value="0.4" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/select_item_row.xml" value="0.4" />
-        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/send_cases_item_row.xml" value="0.264" />
+        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/send_cases_item_row.xml" value="0.4" />
       </map>
     </option>
   </component>

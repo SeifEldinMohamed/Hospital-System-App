@@ -45,9 +45,9 @@
                 android:text="@string/hazem_khaled"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_15ssp"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView11"
-                app:layout_constraintStart_toEndOf="@+id/imageView11"
-                app:layout_constraintTop_toTopOf="@+id/imageView11"
+                app:layout_constraintBottom_toBottomOf="@+id/img_name"
+                app:layout_constraintStart_toEndOf="@+id/img_name"
+                app:layout_constraintTop_toTopOf="@+id/img_name"
                 app:layout_constraintVertical_bias="0.0" />
 
             <ImageView
@@ -60,7 +60,7 @@
                 android:contentDescription="@string/calender_image_description"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView11"
+                app:layout_constraintTop_toBottomOf="@+id/img_name"
                 app:srcCompat="@drawable/ic_calender"
                 tools:ignore="ImageContrastCheck" />
 
@@ -78,7 +78,7 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <ImageView
-                android:id="@+id/imageView11"
+                android:id="@+id/img_name"
                 android:layout_width="@dimen/_22sdp"
                 android:layout_height="@dimen/_22sdp"
                 android:layout_marginStart="16dp"
