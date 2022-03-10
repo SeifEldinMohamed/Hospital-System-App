@@ -69,12 +69,12 @@
     </fragment>
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.seif.hospitalsystem.ProfileFragment"
+        android:name="com.seif.hospitalsystem.ui.fragments.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/reportsFragment"
-        android:name="com.seif.hospitalsystem.ReportsFragment"
+        android:name="com.seif.hospitalsystem.ui.fragments.ReportsFragment"
         android:label="fragment_reports"
         tools:layout="@layout/fragment_reports" >
         <action
@@ -83,7 +83,7 @@
     </fragment>
     <fragment
         android:id="@+id/createReportFragment"
-        android:name="com.seif.hospitalsystem.CreateReportFragment"
+        android:name="com.seif.hospitalsystem.ui.fragments.CreateReportFragment"
         android:label="fragment_create_report"
         tools:layout="@layout/fragment_create_report" />
 </navigation>

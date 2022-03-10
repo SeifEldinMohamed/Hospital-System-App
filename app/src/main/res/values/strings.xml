@@ -11,7 +11,7 @@
     <string name="hr">HR</string>
     <string name="lower_background_image_description">lower background image description</string>
     <string name="upper_background_image_description">upper background image description</string>
-    <string name="loading">Loading...</string>
+    <string name="loading">Loading…</string>
     <string name="forget_password"><u>Forget Password ?</u></string>
     <string name="welcome_back">Welcome Back !</string>
     <string name="to_continue_login_now">To Continue, Login Now</string>
@@ -71,4 +71,9 @@
     <string name="profile_image_background_description">profile image background description</string>
     <string name="my_profile">My Profile</string>
     <string name="reports_name">Reports</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="report_name_hint">Report Name</string>
+    <string name="description">Description</string>
+    <string name="upload_image_description">upload image description</string>
+    <string name="create_report">Create Report</string>
 </resources>

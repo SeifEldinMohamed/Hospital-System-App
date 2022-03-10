@@ -1,4 +1,4 @@
-package com.seif.hospitalsystem
+package com.seif.hospitalsystem.ui.fragments
 
 import android.icu.text.SimpleDateFormat
 import android.os.Build
@@ -12,6 +12,7 @@ import androidx.annotation.RequiresApi
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.bottomsheet.BottomSheetDialog
+import com.seif.hospitalsystem.R
 import com.seif.hospitalsystem.data.models.Report
 import com.seif.hospitalsystem.data.models.Status
 import com.seif.hospitalsystem.databinding.FragmentReportsBinding

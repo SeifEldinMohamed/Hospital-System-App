@@ -1,9 +1,10 @@
-package com.seif.hospitalsystem
+package com.seif.hospitalsystem.ui.fragments
 
 import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.seif.hospitalsystem.R
 import com.seif.hospitalsystem.databinding.FragmentProfileBinding
 
 
