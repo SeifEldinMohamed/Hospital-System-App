@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/drawable-hdpi/ic_arrow_back_white.xml" value="0.1875" />
+        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/drawable/finish_bakcground.xml" value="0.1875" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/drawable/ic_arrow_back.xml" value="0.1875" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/drawable/ic_calls.xml" value="0.1875" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/drawable/ic_dob_profile.xml" value="0.1875" />
@@ -20,6 +21,7 @@
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/drawable/ic_specialist_profile.xml" value="0.1875" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/drawable/ic_status_profile.xml" value="0.1875" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/drawable/ic_tasks.xml" value="0.1875" />
+        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/drawable/process_background.xml" value="0.1875" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/drawable/search_background.xml" value="0.1875" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/font/fonts.xml" value="0.246875" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/activity_intro.xml" value="0.2" />
@@ -37,6 +39,7 @@
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_select.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_sign_in.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_splash.xml" value="0.2" />
+        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/reports_item_row.xml" value="0.4" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/select_doctor_item_row.xml" value="0.4" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/select_item_row.xml" value="0.4" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/send_cases_item_row.xml" value="0.4" />

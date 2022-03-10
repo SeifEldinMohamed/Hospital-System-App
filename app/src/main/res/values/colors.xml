@@ -19,4 +19,9 @@
     <color name="mediumBlack">#343434</color>
     <color name="red">#E63A3A</color>
     <color name="profile_background">@color/mediumGreen</color>
+
+    <color name="finish_text">#06D96F</color>
+    <color name="finish_background">#C6FBE0</color>
+    <color name="process_text">#F17A12</color>
+    <color name="process_background">#FFE6CF</color>
 </resources>

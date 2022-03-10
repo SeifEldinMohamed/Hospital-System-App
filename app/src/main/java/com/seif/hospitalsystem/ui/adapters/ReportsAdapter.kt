@@ -8,22 +8,23 @@ import androidx.recyclerview.widget.RecyclerView
 import com.seif.hospitalsystem.data.models.Case
 import com.seif.hospitalsystem.data.models.Report
 import com.seif.hospitalsystem.data.models.Status
+import com.seif.hospitalsystem.databinding.ReportsItemRowBinding
 import com.seif.hospitalsystem.databinding.SendCasesItemRowBinding
 import com.seif.hospitalsystem.ui.fragments.CasesFragmentDirections
 
 class ReportsAdapter: RecyclerView.Adapter<ReportsAdapter.MyViewHolder>() {
     private var reports: List<Report> = emptyList()
-    inner class MyViewHolder(private val binding: SendCasesItemRowBinding): RecyclerView.ViewHolder(binding.root){
+    inner class MyViewHolder(private val binding: ReportsItemRowBinding): RecyclerView.ViewHolder(binding.root){
         fun bind(position: Int, reports: List<Report>){
-            binding.txtPatientName.text = reports[position].name
-            binding.txtDate.text = reports[position].date
+            binding.txtReportName.text = reports[position].name
+            binding.txtDateReport.text = reports[position].date
             if(reports[position].status == Status.Finished){
-                binding.imgStatusFinish.visibility = View.VISIBLE
-                binding.imgStatusPending.visibility = View.GONE
+                binding.txtProcess.visibility = View.GONE
+                binding.txtFinished.visibility = View.VISIBLE
             }
             else{ // in case of pending case
-                binding.imgStatusFinish.visibility = View.GONE
-                binding.imgStatusPending.visibility = View.VISIBLE
+                binding.txtFinished.visibility = View.GONE
+                binding.txtProcess.visibility = View.VISIBLE
             }
             binding.cardCaseItemRow.setOnClickListener {
 //                val action = CasesFragmentDirections.actionCasesFragmentToCaseDetailsFragment(reports[position])
@@ -35,7 +36,7 @@ class ReportsAdapter: RecyclerView.Adapter<ReportsAdapter.MyViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         return MyViewHolder(
-            SendCasesItemRowBinding.inflate(
+            ReportsItemRowBinding.inflate(
                 LayoutInflater.from(parent.context),
                 parent,
                 false
