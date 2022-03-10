@@ -80,10 +80,18 @@
         <action
             android:id="@+id/action_reportsFragment_to_createReportFragment"
             app:destination="@id/createReportFragment" />
+        <action
+            android:id="@+id/action_reportsFragment_to_reportDetailsFragment"
+            app:destination="@id/reportDetailsFragment" />
     </fragment>
     <fragment
         android:id="@+id/createReportFragment"
         android:name="com.seif.hospitalsystem.ui.fragments.CreateReportFragment"
         android:label="fragment_create_report"
         tools:layout="@layout/fragment_create_report" />
+    <fragment
+        android:id="@+id/reportDetailsFragment"
+        android:name="com.seif.hospitalsystem.ui.fragments.ReportDetailsFragment"
+        android:label="fragment_report_details"
+        tools:layout="@layout/fragment_report_details" />
 </navigation>

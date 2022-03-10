@@ -11,6 +11,7 @@ import com.seif.hospitalsystem.data.models.Status
 import com.seif.hospitalsystem.databinding.ReportsItemRowBinding
 import com.seif.hospitalsystem.databinding.SendCasesItemRowBinding
 import com.seif.hospitalsystem.ui.fragments.CasesFragmentDirections
+import com.seif.hospitalsystem.ui.fragments.ReportsFragmentDirections
 
 class ReportsAdapter: RecyclerView.Adapter<ReportsAdapter.MyViewHolder>() {
     private var reports: List<Report> = emptyList()
@@ -27,8 +28,8 @@ class ReportsAdapter: RecyclerView.Adapter<ReportsAdapter.MyViewHolder>() {
                 binding.txtProcess.visibility = View.VISIBLE
             }
             binding.cardCaseItemRow.setOnClickListener {
-//                val action = CasesFragmentDirections.actionCasesFragmentToCaseDetailsFragment(reports[position])
-//                itemView.findNavController().navigate(action)
+                val action = ReportsFragmentDirections.actionReportsFragmentToReportDetailsFragment()
+                itemView.findNavController().navigate(action)
             }
 
         }

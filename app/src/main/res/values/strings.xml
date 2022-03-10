@@ -76,4 +76,13 @@
     <string name="description">Description</string>
     <string name="upload_image_description">upload image description</string>
     <string name="create_report">Create Report</string>
+    <string name="report_details">Report Details</string>
+    <string name="report_1">Report 1</string>
+    <string name="_26_mar_2022">26 Mar 2022</string>
+    <string name="end">End</string>
+    <string name="image_from_deoctor_report">image from deoctor report</string>
+    <string name="type_your_replay">Type Your Replay</string>
+    <string name="specialist_manager">Specialist, Manager</string>
+    <string name="replay_manager">Replay - Manager</string>
+    <string name="line_side_image_description">line side image description</string>
 </resources>
