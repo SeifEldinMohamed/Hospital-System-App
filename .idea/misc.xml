@@ -36,7 +36,7 @@
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_create_call.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_create_callragment.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_create_report.xml" value="0.2" />
-        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_home.xml" value="0.4" />
+        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_home.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_prototype.xml" value="0.25565610859728505" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_report_details.xml" value="0.2" />
@@ -44,10 +44,12 @@
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_select.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_sign_in.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_splash.xml" value="0.2" />
-        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/reports_item_row.xml" value="0.264" />
+        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_tasks.xml" value="0.2" />
+        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/reports_item_row.xml" value="0.4" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/select_doctor_item_row.xml" value="0.4" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/select_item_row.xml" value="0.4" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/send_cases_item_row.xml" value="0.43283582089552236" />
+        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/tasks_item_row.xml" value="0.264" />
       </map>
     </option>
   </component>

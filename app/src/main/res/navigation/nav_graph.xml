@@ -19,6 +19,9 @@
         <action
             android:id="@+id/action_homeFragment_to_reportsFragment"
             app:destination="@id/reportsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_tasksFragment"
+            app:destination="@id/tasksFragment" />
     </fragment>
     <fragment
         android:id="@+id/casesFragment"
@@ -94,4 +97,22 @@
         android:name="com.seif.hospitalsystem.ui.fragments.ReportDetailsFragment"
         android:label="fragment_report_details"
         tools:layout="@layout/fragment_report_details" />
+    <fragment
+        android:id="@+id/tasksFragment"
+        android:name="com.seif.hospitalsystem.TasksFragment"
+        android:label="fragment_tasks"
+        tools:layout="@layout/fragment_tasks" >
+        <action
+            android:id="@+id/action_tasksFragment_to_taskDetailsFragment"
+            app:destination="@id/taskDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/taskDetailsFragment"
+        android:name="com.seif.hospitalsystem.TaskDetailsFragment"
+        android:label="fragment_task_details"
+        tools:layout="@layout/fragment_task_details" >
+        <argument
+            android:name="task"
+            app:argType="com.seif.hospitalsystem.data.models.Task" />
+    </fragment>
 </navigation>

@@ -48,6 +48,9 @@ class HomeFragment : Fragment() {
         binding.cardReports.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_reportsFragment)
         }
+        binding.cardTasks.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_tasksFragment)
+        }
     }
 
     private fun handleDesignSignIn(specialization: String){

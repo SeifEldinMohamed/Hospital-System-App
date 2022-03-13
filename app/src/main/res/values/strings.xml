@@ -85,4 +85,5 @@
     <string name="specialist_manager">Specialist, Manager</string>
     <string name="replay_manager">Replay - Manager</string>
     <string name="line_side_image_description">line side image description</string>
+    <string name="tasks_toolbar">Tasks</string>
 </resources>
