@@ -86,4 +86,14 @@
     <string name="replay_manager">Replay - Manager</string>
     <string name="line_side_image_description">line side image description</string>
     <string name="tasks_toolbar">Tasks</string>
+    <string name="lorem_details">Details note : Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s</string>
+    <string name="attendance">Attendance</string>
+    <string name="leaving">Leaving</string>
+    <string name="note">Note</string>
+    <string name="_09_00_am">09:00 am</string>
+    <string name="_04_00_pm">04:00 pm</string>
+    <string name="image_button_for_leaving_description">image button for leaving description</string>
+    <string name="not_yet_image_description">not yet image description</string>
+    <string name="finidhed_image_description">finidhed image description</string>
+    <string name="leaving_button_image_description">leaving button image description</string>
 </resources>

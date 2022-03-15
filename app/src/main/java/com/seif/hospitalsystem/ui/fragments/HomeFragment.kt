@@ -51,6 +51,9 @@ class HomeFragment : Fragment() {
         binding.cardTasks.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_tasksFragment)
         }
+        binding.cardAttendance.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_attendanceFragment)
+        }
     }
 
     private fun handleDesignSignIn(specialization: String){
