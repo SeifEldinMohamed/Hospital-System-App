@@ -96,4 +96,7 @@
     <string name="not_yet_image_description">not yet image description</string>
     <string name="finidhed_image_description">finidhed image description</string>
     <string name="leaving_button_image_description">leaving button image description</string>
+    <string name="please_touch_id_sensor_to_verify_registration">Please touch ID sensor to verify registration</string>
+    <string name="background_image_for_attendance_description">background image for attendance description</string>
+    <string name="finger_print_image_description">finger print image description</string>
 </resources>

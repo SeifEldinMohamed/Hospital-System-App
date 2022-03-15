@@ -122,5 +122,23 @@
         android:id="@+id/attendanceFragment"
         android:name="com.seif.hospitalsystem.AttendanceFragment"
         android:label="fragment_attendance"
-        tools:layout="@layout/fragment_attendance" />
+        tools:layout="@layout/fragment_attendance" >
+        <action
+            android:id="@+id/action_attendanceFragment_to_checkAttendanceFragment"
+            app:destination="@id/checkAttendanceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/checkAttendanceFragment"
+        android:name="com.seif.hospitalsystem.CheckAttendanceFragment"
+        android:label="fragment_check_attendance"
+        tools:layout="@layout/fragment_check_attendance" >
+        <action
+            android:id="@+id/action_checkAttendanceFragment_to_successfulFingerPrintFragment"
+            app:destination="@id/successfulFingerPrintFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/successfulFingerPrintFragment"
+        android:name="com.seif.hospitalsystem.SuccessfulFingerPrintFragment"
+        android:label="fragment_successful_finger_print"
+        tools:layout="@layout/fragment_successful_finger_print" />
 </navigation>
