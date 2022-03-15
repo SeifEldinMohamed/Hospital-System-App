@@ -134,7 +134,9 @@
         tools:layout="@layout/fragment_check_attendance" >
         <action
             android:id="@+id/action_checkAttendanceFragment_to_successfulFingerPrintFragment"
-            app:destination="@id/successfulFingerPrintFragment" />
+            app:destination="@id/successfulFingerPrintFragment"
+            app:popUpTo="@id/checkAttendanceFragment"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/successfulFingerPrintFragment"

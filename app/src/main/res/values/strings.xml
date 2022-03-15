@@ -99,4 +99,6 @@
     <string name="please_touch_id_sensor_to_verify_registration">Please touch ID sensor to verify registration</string>
     <string name="background_image_for_attendance_description">background image for attendance description</string>
     <string name="finger_print_image_description">finger print image description</string>
+    <string name="your_attendance_has_been_registered">Your attendance has been registered</string>
+    <string name="image_button_to_back_to_attendance">image button to back to attendance</string>
 </resources>
