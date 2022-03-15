@@ -27,4 +27,16 @@ lateinit var binding: FragmentCheckAttendanceBinding
             findNavController().navigate(R.id.action_checkAttendanceFragment_to_successfulFingerPrintFragment)
         }
     }
+
+    override fun onStart() {
+        super.onStart()
+        activity?.window?.statusBarColor = requireActivity().getColor(R.color.mediumGreen)
+
+    }
+
+    override fun onStop() {
+        super.onStop()
+        activity?.window?.statusBarColor = requireActivity().getColor(R.color.white)
+    }
+
 }

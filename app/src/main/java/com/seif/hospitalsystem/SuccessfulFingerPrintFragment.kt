@@ -31,6 +31,5 @@ lateinit var binding: FragmentSuccessfulFingerPrintBinding
     override fun onDestroyView() {
         super.onDestroyView()
         activity?.window?.statusBarColor = requireActivity().getColor(R.color.white)
-
     }
 }

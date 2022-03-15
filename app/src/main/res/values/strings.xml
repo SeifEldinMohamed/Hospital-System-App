@@ -101,4 +101,11 @@
     <string name="finger_print_image_description">finger print image description</string>
     <string name="your_attendance_has_been_registered">Your attendance has been registered</string>
     <string name="image_button_to_back_to_attendance">image button to back to attendance</string>
+    <string name="lorem">Lorem Ipsum is simply dummy text of</string>
+    <string name="add_note">Add Note</string>
+    <string name="task_details">Task Details</string>
+    <string name="execution">Execution</string>
+    <string name="to_do">To do</string>
+    <string name="task_1">Task 1</string>
+    <string name="send">Send</string>
 </resources>
