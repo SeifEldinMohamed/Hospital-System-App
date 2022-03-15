@@ -54,6 +54,9 @@ class HomeFragment : Fragment() {
         binding.cardAttendance.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_attendanceFragment)
         }
+        binding.imgNotification.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_notificationFragment)
+        }
     }
 
     private fun handleDesignSignIn(specialization: String){

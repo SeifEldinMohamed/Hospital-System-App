@@ -108,4 +108,8 @@
     <string name="to_do">To do</string>
     <string name="task_1">Task 1</string>
     <string name="send">Send</string>
+    <string name="notification">Notification</string>
+    <string name="you_have_new_call_manger">You have new call manger</string>
+    <string name="_02_39am">02:39AM</string>
+    <string name="new_notification_image_description">new notification image description</string>
 </resources>

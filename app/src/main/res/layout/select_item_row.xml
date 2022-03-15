@@ -8,6 +8,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -16,8 +17,8 @@
             android:id="@+id/select_radio"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:button="@null"
             android:layout_marginEnd="@dimen/_4sdp"
+            android:button="@null"
             android:drawableEnd="?android:attr/listChoiceIndicatorSingle"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -35,11 +36,11 @@
             android:layout_marginBottom="@dimen/_16sdp"
             android:contentDescription="@string/user_image_description"
             android:scaleType="fitXY"
+            android:src="@drawable/seif_image"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0"
-            android:src="@drawable/seif_image"
             tools:ignore="ImageContrastCheck" />
 
         <ImageView
