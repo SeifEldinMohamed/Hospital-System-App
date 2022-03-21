@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hr_nav_graph"
+    app:startDestination="@id/hrHomeFragment">
+    <fragment
+        android:id="@+id/hrHomeFragment"
+        android:name="com.seif.hospitalsystem.HrHomeFragment"
+        android:label="fragment_hr_home"
+        tools:layout="@layout/fragment_hr_home" >
+        <action
+            android:id="@+id/action_hrHomeFragment_to_tasksFragment2"
+            app:destination="@id/tasksFragment2" />
+        <action
+            android:id="@+id/action_hrHomeFragment_to_attendanceFragment2"
+            app:destination="@id/attendanceFragment2" />
+        <action
+            android:id="@+id/action_hrHomeFragment_to_reportsFragment2"
+            app:destination="@id/reportsFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/tasksFragment2"
+        android:name="com.seif.hospitalsystem.ui.fragments.TasksFragment"
+        android:label="fragment_tasks"
+        tools:layout="@layout/fragment_tasks" >
+        <action
+            android:id="@+id/action_tasksFragment2_to_taskDetailsFragment2"
+            app:destination="@id/taskDetailsFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/taskDetailsFragment2"
+        android:name="com.seif.hospitalsystem.ui.fragments.TaskDetailsFragment"
+        android:label="fragment_task_details"
+        tools:layout="@layout/fragment_task_details" >
+        <argument
+            android:name="task"
+            app:argType="com.seif.hospitalsystem.data.models.Task" />
+    </fragment>
+    <fragment
+        android:id="@+id/attendanceFragment2"
+        android:name="com.seif.hospitalsystem.ui.fragments.AttendanceFragment"
+        android:label="fragment_attendance"
+        tools:layout="@layout/fragment_attendance" >
+        <action
+            android:id="@+id/action_attendanceFragment2_to_checkAttendanceFragment2"
+            app:destination="@id/checkAttendanceFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/checkAttendanceFragment2"
+        android:name="com.seif.hospitalsystem.ui.fragments.CheckAttendanceFragment"
+        android:label="fragment_check_attendance"
+        tools:layout="@layout/fragment_check_attendance" >
+        <action
+            android:id="@+id/action_checkAttendanceFragment2_to_successfulFingerPrintFragment2"
+            app:destination="@id/successfulFingerPrintFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/successfulFingerPrintFragment2"
+        android:name="com.seif.hospitalsystem.ui.fragments.SuccessfulFingerPrintFragment"
+        android:label="fragment_successful_finger_print"
+        tools:layout="@layout/fragment_successful_finger_print" />
+    <fragment
+        android:id="@+id/reportsFragment2"
+        android:name="com.seif.hospitalsystem.ui.fragments.ReportsFragment"
+        android:label="fragment_reports"
+        tools:layout="@layout/fragment_reports" >
+        <action
+            android:id="@+id/action_reportsFragment2_to_reportDetailsFragment2"
+            app:destination="@id/reportDetailsFragment2" />
+        <action
+            android:id="@+id/action_reportsFragment2_to_createReportFragment2"
+            app:destination="@id/createReportFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/createReportFragment2"
+        android:name="com.seif.hospitalsystem.ui.fragments.CreateReportFragment"
+        android:label="fragment_create_report"
+        tools:layout="@layout/fragment_create_report" />
+    <fragment
+        android:id="@+id/reportDetailsFragment2"
+        android:name="com.seif.hospitalsystem.ui.fragments.ReportDetailsFragment"
+        android:label="fragment_report_details"
+        tools:layout="@layout/fragment_report_details" />
+    <fragment
+        android:id="@+id/hrProfileFragment"
+        android:name="com.seif.hospitalsystem.HrProfileFragment"
+        android:label="fragment_hr_profile"
+        tools:layout="@layout/fragment_hr_profile" />
+</navigation>

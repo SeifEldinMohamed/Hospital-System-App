@@ -5,9 +5,11 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
-import androidx.navigation.fragment.findNavController
-import com.seif.hospitalsystem.MainActivity
+import com.seif.hospitalsystem.HrActivity
+import com.seif.hospitalsystem.ReceptionistActivity
+import com.seif.hospitalsystem.data.sharedPreference.AppSharedPreference
 import com.seif.hospitalsystem.databinding.FragmentSignInBinding
 
 
@@ -25,7 +27,17 @@ lateinit var binding: FragmentSignInBinding
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.btnLogin.setOnClickListener {
-            startActivity(Intent(requireContext(), MainActivity::class.java))
+            when (AppSharedPreference.readSpecialization("Spec", "") ){
+                "Receptionist" -> startActivity(Intent(requireContext(), ReceptionistActivity::class.java))
+//                "Doctor" -> startActivity(Intent(requireContext(), MainActivity::class.java))
+//                "Analysis employee" -> startActivity(Intent(requireContext(), MainActivity::class.java))
+//                "Nurse" -> startActivity(Intent(requireContext(), MainActivity::class.java))
+//                "Manager" -> startActivity(Intent(requireContext(), MainActivity::class.java))
+                "HR" -> startActivity(Intent(requireContext(), HrActivity::class.java))
+                else -> {
+                    Toast.makeText(requireContext(), "not finished yet !", Toast.LENGTH_SHORT).show()
+                }
+            }
             requireActivity().finish()
         }
     }

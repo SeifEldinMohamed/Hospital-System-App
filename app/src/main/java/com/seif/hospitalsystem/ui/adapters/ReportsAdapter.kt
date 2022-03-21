@@ -28,7 +28,7 @@ class ReportsAdapter: RecyclerView.Adapter<ReportsAdapter.MyViewHolder>() {
                 binding.txtProcess.visibility = View.VISIBLE
             }
             binding.cardCaseItemRow.setOnClickListener {
-                val action = ReportsFragmentDirections.actionReportsFragmentToReportDetailsFragment()
+                val action = ReportsFragmentDirections.actionReportsFragment2ToReportDetailsFragment2()
                 itemView.findNavController().navigate(action)
             }
 

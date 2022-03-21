@@ -10,11 +10,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.seif.hospitalsystem.R
+import com.seif.hospitalsystem.data.sharedPreference.AppSharedPreference
 import com.seif.hospitalsystem.databinding.FragmentHomeBinding
 
 
 class HomeFragment : Fragment() {
-    lateinit var pref: SharedPreferences
     lateinit var binding: FragmentHomeBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -28,8 +28,9 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        pref = requireContext().getSharedPreferences("specialist", Context.MODE_PRIVATE)
-       val specialization = pref.getString("Spec","").toString()
+        AppSharedPreference.init(requireContext())
+
+       val specialization = AppSharedPreference.readSpecialization("Spec", "")
         handleDesignSignIn(specialization)
 
         binding.profileImg.setOnClickListener {

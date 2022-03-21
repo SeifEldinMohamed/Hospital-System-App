@@ -5,7 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import com.seif.hospitalsystem.TasksFragmentDirections
+import com.seif.hospitalsystem.ui.fragments.TasksFragmentDirections
 import com.seif.hospitalsystem.data.models.Status
 import com.seif.hospitalsystem.data.models.Task
 import com.seif.hospitalsystem.databinding.TasksItemRowBinding
@@ -26,7 +26,7 @@ class TasksAdapter: RecyclerView.Adapter<TasksAdapter.MyViewHolder>() {
                     binding.txtProcessTask.visibility = View.VISIBLE
                 }
                 binding.cardTaskItemRow.setOnClickListener {
-                    val action = TasksFragmentDirections.actionTasksFragmentToTaskDetailsFragment(tasks[position])
+                    val action = TasksFragmentDirections.actionTasksFragment2ToTaskDetailsFragment2(tasks[position])
                     itemView.findNavController().navigate(action)
                 }
             }

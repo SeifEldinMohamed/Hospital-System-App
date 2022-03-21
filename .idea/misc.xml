@@ -28,8 +28,9 @@
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/drawable/text_background.xml" value="0.1875" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/drawable/upload_image_background.xml" value="0.176" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/font/fonts.xml" value="0.246875" />
+        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/activity_hr.xml" value="0.18518518518518517" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/activity_intro.xml" value="0.2" />
-        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/buttomsheet_layout.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_attendance.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_case_details.xml" value="0.2" />
@@ -40,6 +41,7 @@
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_create_callragment.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_create_report.xml" value="0.2" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_hr_home.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_notification.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_prototype.xml" value="0.25565610859728505" />

@@ -12,8 +12,7 @@
         <activity
             android:name=".IntroActivity"
             android:exported="true"
-            android:theme="@style/SplashTheme"
-            >
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,10 +20,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".ReceptionistActivity"
             android:exported="true"
-            android:windowSoftInputMode="adjustResize"
-            android:theme="@style/Theme.HospitalSystem">
+            android:theme="@style/Theme.HospitalSystem"
+            android:windowSoftInputMode="adjustResize">
+
+        </activity>
+        <activity
+            android:name=".HrActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HospitalSystem"
+            android:windowSoftInputMode="adjustResize">
 
         </activity>
     </application>
