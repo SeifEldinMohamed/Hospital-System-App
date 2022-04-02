@@ -112,6 +112,8 @@
     <string name="you_have_new_call_manger">You have new call manger</string>
     <string name="_02_39am">02:39AM</string>
     <string name="new_notification_image_description">new notification image description</string>
-    <string name="employee_hr">Employee</string>
     <string name="edit_image_description">edit image description</string>
+    <string name="employee_hr">Employee</string>
+    <string name="add_employee_image_description">add employee image description</string>
+    <string name="all">All</string>
 </resources>

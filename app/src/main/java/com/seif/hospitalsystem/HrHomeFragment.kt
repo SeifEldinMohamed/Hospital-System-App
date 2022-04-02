@@ -32,7 +32,11 @@ lateinit var binding: FragmentHrHomeBinding
         binding.cardTasksHr.setOnClickListener {
             findNavController().navigate(R.id.action_hrHomeFragment_to_tasksFragment2)
         }
-
+        binding.profileImg.setOnClickListener {
+            findNavController().navigate(R.id.action_hrHomeFragment_to_hrProfileFragment)
+        }
+        binding.txtProfileName.setOnClickListener{
+            findNavController().navigate(R.id.action_hrHomeFragment_to_hrProfileFragment)
+        }
     }
-
 }

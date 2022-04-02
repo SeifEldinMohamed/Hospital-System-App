@@ -32,6 +32,7 @@
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/activity_intro.xml" value="0.2" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/buttomsheet_layout.xml" value="0.264" />
+        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/categories_item_row.xml" value="1.2" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_attendance.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_case_details.xml" value="0.2" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_cases.xml" value="0.264" />
@@ -40,9 +41,10 @@
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_create_call.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_create_callragment.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_create_report.xml" value="0.2" />
+        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_employees.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_home.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_hr_home.xml" value="0.264" />
-        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_hr_profile.xml" value="0.2" />
+        <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_hr_profile.xml" value="0.176" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_notification.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
         <entry key="..\:/Users/96654/HospitalSystem/app/src/main/res/layout/fragment_prototype.xml" value="0.25565610859728505" />

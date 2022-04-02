@@ -18,6 +18,12 @@
         <action
             android:id="@+id/action_hrHomeFragment_to_reportsFragment2"
             app:destination="@id/reportsFragment2" />
+        <action
+            android:id="@+id/action_hrHomeFragment_to_hrProfileFragment"
+            app:destination="@id/hrProfileFragment" />
+        <action
+            android:id="@+id/action_hrHomeFragment_to_employeesFragment"
+            app:destination="@id/employeesFragment" />
     </fragment>
     <fragment
         android:id="@+id/tasksFragment2"
@@ -87,4 +93,9 @@
         android:name="com.seif.hospitalsystem.HrProfileFragment"
         android:label="fragment_hr_profile"
         tools:layout="@layout/fragment_hr_profile" />
+    <fragment
+        android:id="@+id/employeesFragment"
+        android:name="com.seif.hospitalsystem.EmployeesFragment"
+        android:label="fragment_employees"
+        tools:layout="@layout/fragment_employees" />
 </navigation>
